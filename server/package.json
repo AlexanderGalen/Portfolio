@@ -4,7 +4,9 @@
   "description": "server portion of the portfolio site using nodejs, mongodb, and graphql",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "express": "^4.17.2",
     "dotenv": "^16.0.3",
     "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
