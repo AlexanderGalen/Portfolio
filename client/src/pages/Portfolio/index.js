@@ -7,41 +7,27 @@ import catDogImage from "./assets/catsVsDogs.png"
 export default function PortFolio() {
   return (
     <div className="projects">
-      <div className="row" > 
-        <div className="col-6">
-          <Project
-            image={nutriImage}
-            title={"NutriTeam : Nutrition App"}
-            github={"https://github.com/AlexanderGalen/NutriTech"}
-            link={"https://rubendc91.github.io/NutriTeam/"}
-          />
-        </div>
-        <div className="col-6">
-          <Project
-            image={chatImage}
-            title={"Chattable : Instant Messaging App"}
-            github={"https://github.com/AlexanderGalen/Chattable"}
-            link={"https://corgi-messenger.herokuapp.com/login"}
-          />
-        </div>
-      </div>
-      <div className="row" > 
-        <div className="col-6">
-          <Project
-            image={catDogImage}
-            title={"Cats vs Dogs : Web Based Codenames Clone"}
-            github={"https://github.com/AlexanderGalen/Cats-vs-Dogs"}
-            link={"https://mysterious-hollows-84029.herokuapp.com/"}
-          />
-        </div>
-        <div className="col-6">
+      <div className="row justify-content-center" >
         <Project
-          image={"https://picsum.photos/200/300"}
-          title={"Project 4"}
-          github={"https://github.com/AlexanderGalen/"}
-          link={"#"}
+          image={nutriImage}
+          title={"NutriTeam : Nutrition App"}
+          github={"https://github.com/AlexanderGalen/NutriTech"}
+          link={"https://nutritech.alexandergalen.com"}
         />
-        </div>
+        <Project
+          image={chatImage}
+          title={"Chattable : Instant Messaging App"}
+          github={"https://github.com/AlexanderGalen/Chattable"}
+          link={"https://chat.alexandergalen.com"}
+        />
+      </div>
+      <div className="row justify-content-center" >
+        <Project
+          image={catDogImage}
+          title={"Cats vs Dogs : Web Based Codenames Clone"}
+          github={"https://github.com/AlexanderGalen/Cats-vs-Dogs"}
+          link={"https://game.alexandergalen.com"}
+        />
       </div>
     </div>
   )
