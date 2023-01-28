@@ -5,7 +5,7 @@ import "./style.css";
 export default function Navigation() {
 
   return (
-    <nav className="navigation col-6 align-items-center">
+    <nav className="navigation col-6 align-items-center pt-2">
       <div className="row p-0 pt-2 m-0 text-center">
         <h5 className="col-3 text-white">
           <NavLink activeClassName="selected" to="/about">About Me</NavLink>
