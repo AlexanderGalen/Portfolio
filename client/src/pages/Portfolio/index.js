@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react";
 import Project from "../../components/Project";
 import chatImage from "./assets/chat.png";
-import nutriImage from "./assets/nutriTeam.png"
-import catDogImage from "./assets/catsVsDogs.png"
+import nutriImage from "./assets/nutriTeam.png";
+import catDogImage from "./assets/catsVsDogs.png";
 
 export default function PortFolio() {
   return (
     <div className="projects">
-      <div className="row justify-content-center" >
+      <div className="row justify-content-center">
         <Project
-          image={nutriImage}
-          title={"NutriTeam : Nutrition App"}
-          github={"https://github.com/AlexanderGalen/NutriTech"}
-          link={"https://nutritech.alexandergalen.com"}
+          image={catDogImage}
+          title={"Cats vs Dogs : Web Based Codenames Clone"}
+          github={"https://github.com/AlexanderGalen/Cats-vs-Dogs"}
+          link={"https://game.alexandergalen.com"}
         />
         <Project
           image={chatImage}
@@ -21,14 +21,14 @@ export default function PortFolio() {
           link={"https://chat.alexandergalen.com"}
         />
       </div>
-      <div className="row justify-content-center" >
+      <div className="row justify-content-center">
         <Project
-          image={catDogImage}
-          title={"Cats vs Dogs : Web Based Codenames Clone"}
-          github={"https://github.com/AlexanderGalen/Cats-vs-Dogs"}
-          link={"https://game.alexandergalen.com"}
+          image={nutriImage}
+          title={"NutriTeam : Nutrition App"}
+          github={"https://github.com/AlexanderGalen/NutriTech"}
+          link={"https://nutritech.alexandergalen.com"}
         />
       </div>
     </div>
-  )
+  );
 }
